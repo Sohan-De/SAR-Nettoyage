@@ -580,7 +580,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mold: {
             cat: 'Conseils',
             title: 'Comment éliminer les taches de moisissures sans abîmer la peinture ?',
-            meta: '📅 15 Mai 2026 · ⏱ 6 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 15 Mai 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 min de lecture</span>',
             body: `<p>Les moisissures ne sont pas qu'un problème esthétique : elles peuvent affecter la qualité de l'air intérieur et la santé des occupants, surtout dans les pièces humides comme les salles de bain et les cuisines.</p>
                    <p>Chez SAR Nettoyage, nous utilisons des produits certifiés et des techniques en douceur qui pénètrent la surface sans dégrader les liants de la peinture. L'étape clé consiste à traiter la cause (humidité, ventilation) avant d'appliquer un nettoyage ciblé et une protection anti-moisissure.</p>
                    <p>Évitez l'eau de Javel pure sur les murs peints : elle peut jaunir ou fragiliser le revêtement. Préférez un diagnostic professionnel pour un résultat durable et sans risque pour votre logement.</p>`
@@ -588,7 +588,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mistakes: {
             cat: 'Entretien',
             title: '5 erreurs à éviter lors du nettoyage de vos murs intérieurs',
-            meta: '📅 3 Mai 2026 · ⏱ 5 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 3 Mai 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 5 min de lecture</span>',
             body: `<p><strong>1. Utiliser des produits trop agressifs</strong> — Les solvants puissants peuvent dissoudre la finition de votre peinture.</p>
                    <p><strong>2. Frotter trop fort</strong> — Un chiffon abrasif laisse des marques brillantes impossibles à rattraper.</p>
                    <p><strong>3. Nettoyer à sec sans dépoussiérage</strong> — La poussière raye la surface lors du passage humide.</p>
@@ -598,7 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
         facade: {
             cat: 'Actualité',
             title: 'Nettoyage de façades en Occitanie : réglementation 2026',
-            meta: '📅 20 Avr 2026 · ⏱ 7 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 20 Avr 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 7 min de lecture</span>',
             body: `<p>En 2026, les exigences en matière d'entretien des façades et de ravalement continuent d'évoluer dans plusieurs communes d'Occitanie. Un nettoyage régulier peut retarder des travaux de réfection coûteux.</p>
                    <p>SAR Nettoyage vous accompagne pour respecter les délais communaux tout en préservant l'intégrité de vos revêtements (enduit, pierre, bardage). Nous adaptons la pression et les produits selon le matériau — jamais de méthode unique pour tous les supports.</p>
                    <p>Contactez-nous pour un audit gratuit de votre façade ou terrasse dans votre ville.</p>`
@@ -606,7 +606,7 @@ document.addEventListener('DOMContentLoaded', () => {
         smoke: {
             cat: 'Technique',
             title: 'Taches de fumée et nicotine : guide complet de restauration',
-            meta: '📅 12 Avr 2026 · ⏱ 8 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 12 Avr 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 8 min de lecture</span>',
             body: `<p>La nicotine et la suie pénètrent les pores de la peinture, provoquant un jaunissement progressif et des odeurs tenaces. Un simple nettoyage domestique ne suffit souvent pas.</p>
                    <p>Notre protocole combine un dégraissant spécialisé, un rinçage contrôlé et une neutralisation olfactive. Pour les logements après sinistre ou occupation longue durée, nous proposons un traitement complet pièce par pièce.</p>
                    <p>Résultat : murs visuellement rafraîchis et air intérieur nettement amélioré, sans repeindre dans la majorité des cas.</p>`
@@ -614,7 +614,7 @@ document.addEventListener('DOMContentLoaded', () => {
         water: {
             cat: 'Conseils',
             title: 'Taches d\'humidité sur les murs : causes et solutions durables',
-            meta: '📅 28 Mar 2026 · ⏱ 6 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 28 Mar 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 min de lecture</span>',
             body: `<p>Les auréoles brunes signalent souvent une infiltration passée ou une condensation récurrente. Avant de nettoyer, il est essentiel de réparer la source d'eau.</p>
                    <p>Une fois la fuite colmatée et le mur sec, nos techniciens éliminent les traces minérales et salpêtre, puis appliquent un traitement préventif adapté au support.</p>
                    <p>Ne repeignez pas immédiatement après un dégât des eaux : un séchage complet évite la réapparition des taches sous la nouvelle couche.</p>`
@@ -622,15 +622,15 @@ document.addEventListener('DOMContentLoaded', () => {
         bail: {
             cat: 'Entretien',
             title: 'Fin de bail : checklist pour récupérer votre dépôt de garantie',
-            meta: '📅 15 Mar 2026 · ⏱ 4 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 15 Mar 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 4 min de lecture</span>',
             body: `<p>L'état des murs est l'un des points les plus contestés lors des états des lieux. Traceurs, traces de meubles et salissures dans les angles sont souvent relevés par le propriétaire.</p>
-                   <p>Un nettoyage professionnel des murs et plafonds, réalisé avant l'inspection, maximise vos chances de récupérer l'intégralité du dépôt. Nous intervenons rapidement à Béziers, Montpellier, Toulouse et dans toute la région.</p>
+                   <p>Un nettoyage professionnel des murs et plafonds, réalisé avant l'inspection, maximise vos chances de récupérer l'intégralité du dépôt. Nous intervenons rapidement à Béziers et dans un rayon d'environ 30 km.</p>
                    <p>Demandez un devis express — intervention possible sous 48 h selon disponibilité.</p>`
         },
         office: {
             cat: 'Technique',
             title: 'Pourquoi entretenir les murs de vos bureaux chaque trimestre ?',
-            meta: '📅 2 Mar 2026 · ⏱ 5 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 2 Mar 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 5 min de lecture</span>',
             body: `<p>Dans les espaces professionnels, les murs accumulent poussière, traces de doigts et salissures liées au passage. Un entretien trimestriel maintient une image soignée pour vos clients et collaborateurs.</p>
                    <p>Nous intervenons en dehors des heures d'ouverture pour limiter les perturbations. Nos produits sans odeur forte permettent une reprise immédiate de l'activité.</p>
                    <p>Contrats d'entretien sur mesure disponibles pour PME et syndics de copropriété.</p>`
@@ -638,7 +638,7 @@ document.addEventListener('DOMContentLoaded', () => {
         eco: {
             cat: 'Actualité',
             title: 'Nettoyage écologique : notre engagement pour l\'Occitanie',
-            meta: '📅 18 Fév 2026 · ⏱ 4 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 18 Fév 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 4 min de lecture</span>',
             body: `<p>SAR Nettoyage s'engage à réduire l'impact environnemental de ses interventions : produits biodégradables, dosage précis et limitation des rejets.</p>
                    <p>Nos solutions sont sans danger pour les enfants et les animaux une fois le séchage effectué. C'est un critère essentiel pour les familles et les établissements recevant du public.</p>
                    <p>Choisir un nettoyage écologique, c'est protéger votre intérieur et la planète sans sacrifier l'efficacité.</p>`
@@ -646,7 +646,7 @@ document.addEventListener('DOMContentLoaded', () => {
         softwash: {
             cat: 'Conseils',
             title: 'Façade ou terrasse : quand opter pour le soft wash ?',
-            meta: '📅 5 Fév 2026 · ⏱ 6 min de lecture',
+            meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 5 Fév 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 min de lecture</span>',
             body: `<p>Le nettoyage haute pression convient aux surfaces très résistantes, mais peut endommager enduits fins, joints ou peintures délicates. Le soft wash combine basse pression et solution active pour dissoudre salissures et algues en douceur.</p>
                    <p>Idéal pour façades claires, terrasses en pierre reconstituée et bardages. Nos équipes évaluent sur place la méthode la plus sûre pour votre bien.</p>
                    <p>Voir nos réalisations extérieures sur la page d'accueil ou demandez un devis personnalisé.</p>`

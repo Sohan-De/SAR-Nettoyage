@@ -1,5 +1,6 @@
 ﻿const fs = require('fs');
 const path = require('path');
+const { ICON, trustRowHtml, footerContactHtml } = require('./icon-snippets');
 
 const services = [
   {
@@ -119,16 +120,7 @@ const services = [
   },
 ];
 
-const zoneLinks = [
-  { slug: 'beziers', name: 'Béziers' },
-  { slug: 'montpellier', name: 'Montpellier' },
-  { slug: 'toulouse', name: 'Toulouse' },
-  { slug: 'narbonne', name: 'Narbonne' },
-  { slug: 'carcassonne', name: 'Carcassonne' },
-  { slug: 'perpignan', name: 'Perpignan' },
-  { slug: 'sete', name: 'Sète' },
-  { slug: 'nimes', name: 'Nîmes' },
-];
+const { cities: zoneLinks, ZONE_NAV_LABEL } = require('./zones-data');
 
 function buildPage(s) {
   const p = '../';
@@ -197,7 +189,7 @@ function buildPage(s) {
                     </li>
                     <li><a href="${p}realisation.html" class="nav-link">Réalisations</a></li>
                     <li class="nav-item-dropdown">
-                        <a href="${p}index.html#area" class="nav-link dropdown-toggle">Zone <span class="dropdown-arrow">▼</span></a>
+                        <a href="${p}index.html#area" class="nav-link dropdown-toggle">${ZONE_NAV_LABEL} <span class="dropdown-arrow">▼</span></a>
                         <ul class="dropdown-menu">
                             ${zoneDropdown}
                         </ul>
@@ -214,17 +206,14 @@ function buildPage(s) {
         <section class="svc-hero">
             <div class="container svc-hero-grid">
                 <div class="svc-hero-content">
-                    <span class="svc-hero-badge">✨ ${s.badge}</span>
+                    <span class="svc-hero-badge">${ICON.sparkles} ${s.badge}</span>
                     <h1><span class="highlight-svc">${s.title}</span></h1>
                     <p class="svc-hero-lead">${s.lead}</p>
                     <div class="svc-hero-actions">
                         <a href="${p}contact.html" class="btn btn-primary btn-icon"><span>Devis Gratuit</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
                         <a href="tel:+33664334035" class="btn btn-secondary btn-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Appeler</span></a>
                     </div>
-                    <div class="svc-hero-trust">
-                        <span>⭐️ 4,9/5 avis clients</span>
-                        <span>⚡ Réponse sous 15 min</span>
-                        <span>🛡️ Garantie satisfaction</span>
+                    <div class="svc-hero-trust">${trustRowHtml()}
                     </div>
                 </div>
                 <div class="svc-hero-visual">
@@ -337,7 +326,7 @@ function buildPage(s) {
             </ul></div>
             <div class="footer-links"><h4>Services</h4><ul>${footerServices}</ul></div>
             <div class="footer-contact"><h4>Nous Contacter</h4><p>SAR Nettoyage<br>Occitanie, France</p>
-                <p class="footer-contact-details"><span>📞 Tél. : <a href="tel:+33664334035">+33 6 64 33 40 35</a></span><span>✉️ Email : <a href="mailto:support@apexwallcare.com">support@apexwallcare.com</a></span></p>
+                ${footerContactHtml()}
             </div>
         </div>
         <div class="footer-bottom"><div class="container footer-bottom-flex">

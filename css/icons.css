@@ -1,0 +1,73 @@
+/* Flat inline SVG icons (replaces emojis site-wide) */
+
+.icon-flat {
+    display: inline-block;
+    vertical-align: -0.2em;
+    flex-shrink: 0;
+    color: currentColor;
+}
+
+.icon-flat--sm {
+    width: 14px;
+    height: 14px;
+}
+
+.badge,
+.zone-hero-badge,
+.svc-hero-badge,
+.blog-hero-badge,
+.realisation-hero-badge,
+.legal-hero-badge {
+    gap: 0.4rem;
+}
+
+.trust-inline,
+.footer-contact-item,
+.legal-hero-meta span,
+.blog-featured-meta span,
+#blog-modal-meta .meta-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.trust-text > span.trust-inline {
+    color: var(--dark-muted);
+    font-size: 0.9rem;
+}
+
+.footer-contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-contact-details .footer-contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.icon-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+    color: #f59e0b;
+}
+
+.icon-star {
+    display: block;
+    flex-shrink: 0;
+}
+
+#blog-modal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.5rem;
+}
+
+.legal-hero-meta span {
+    font-size: 0.9rem;
+    color: var(--dark-muted);
+}

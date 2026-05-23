@@ -1,40 +1,7 @@
 ﻿const fs = require('fs');
 const path = require('path');
-
-const cities = [
-  { slug:'beziers', name:'Béziers', dept:'Hérault (34)', tag:'Centre-ville & communes', lat:43.3410, lng:3.2150,
-    lead:"SAR Nettoyage intervient à Béziers et ses communes pour le nettoyage professionnel de murs intérieurs, façades et traitements anti-moisissure. Devis gratuit sous 15 minutes.",
-    communes:['Centre-ville','Les Ayroles','Montimaran','Cers','Sérignan','Villeneuve-lès-Béziers','Lespignan','Maureilhan'],
-    img:'service_exterior.png', alt:'Nettoyage façade Béziers' },
-  { slug:'montpellier', name:'Montpellier', dept:'Hérault (34)', tag:'Centre & agglomération', lat:43.6108, lng:3.8767,
-    lead:"Experts du nettoyage de murs à Montpellier et dans l'agglomération. Appartements, résidences, bureaux et façades — intervention rapide sur demande.",
-    communes:['Écusson','Antigone','Port Marianne','Castelnau-le-Lez','Lattes','Pérols','Saint-Jean-de-Védas','Mauguio'],
-    img:'img3.jpg', alt:'Nettoyage murs Montpellier' },
-  { slug:'toulouse', name:'Toulouse', dept:'Haute-Garonne (31)', tag:'Ville rose & périphérie', lat:43.6047, lng:1.4442,
-    lead:'Nettoyage et restauration de murs à Toulouse, la Ville Rose. Nous traitons briques, plâtre et peintures délicates avec des produits respectueux de vos surfaces.',
-    communes:['Capitole','Carmes','Saint-Cyprien','Rangueil','Balma','Colomiers','Tournefeuille','Blagnac'],
-    img:'img7.png', alt:'Nettoyage murs Toulouse' },
-  { slug:'narbonne', name:'Narbonne', dept:'Aude (11)', tag:'Ville & alentours', lat:43.1839, lng:3.0042,
-    lead:"Service de nettoyage de murs à Narbonne et alentours. Humidité méditerranéenne, moisissures et salissures de façade : nos techniciens interviennent efficacement.",
-    communes:['Centre historique','Bages','Coursan','Gruissan',"Cuxac-d'Aude",'Moussan','Montredon','Sigean'],
-    img:'img2.jpg', alt:'Traitement murs Narbonne' },
-  { slug:'carcassonne', name:'Carcassonne', dept:'Aude (11)', tag:'Historique & moderne', lat:43.2128, lng:2.3537,
-    lead:'Nettoyage professionnel de murs à Carcassonne, de la Cité aux quartiers modernes. Préservation des surfaces patrimoniales et traitement des humidités.',
-    communes:['Cité médiévale','Bastide Saint-Louis','Bram','Trèbes','Castelnaudary','Lézignan','Pennautier','Palaja'],
-    img:'img4.webp', alt:'Nettoyage Carcassonne' },
-  { slug:'perpignan', name:'Perpignan', dept:'Pyrénées-Orientales (66)', tag:'Centre & communes', lat:42.6887, lng:2.8948,
-    lead:'SAR Nettoyage couvre Perpignan et le Roussillon pour tous vos besoins de nettoyage de murs, terrasses et façades. Produits adaptés au climat méditerranéen.',
-    communes:['Centre-ville','Saint-Jacques','Moulin à Vent','Cabestany','Saint-Estève','Rivesaltes','Canet','Elne'],
-    img:'service_exterior.png', alt:'Nettoyage Perpignan' },
-  { slug:'sete', name:'Sète', dept:'Hérault (34)', tag:'Littoral & ville', lat:43.4053, lng:3.6975,
-    lead:"Nettoyage de murs à Sète, ville portuaire et littorale. Traitement de l'humidité marine, moisissures en salle de bain et nettoyage de terrasses.",
-    communes:['Centre','Le Quartier haut','Front de mer','Balaruc','Marseillan','Mèze','Bouzigues','Gigean'],
-    img:'img2.jpg', alt:'Nettoyage Sète' },
-  { slug:'nimes', name:'Nîmes', dept:'Gard (30)', tag:'Ville romaine & alentours', lat:43.8367, lng:4.3601,
-    lead:"Intervention à Nîmes et agglomération pour le nettoyage de murs en pierre, enduit et peinture. Résidences, commerces et monuments : expertise locale garantie.",
-    communes:['Écusson','Courbessac','Pissevin','Milhaud','Bernis','Marguerittes','Caissargues','Bouillargues'],
-    img:'img3.jpg', alt:'Nettoyage murs Nîmes' },
-];
+const { ICON, trustRowHtml, footerContactHtml } = require('./icon-snippets');
+const { cities, ZONE_NAV_LABEL } = require('./zones-data');
 
 function buildPage(c) {
   const p = '../';
@@ -94,7 +61,7 @@ function buildPage(c) {
                     </li>
                     <li><a href="${p}realisation.html" class="nav-link">Réalisations</a></li>
                     <li class="nav-item-dropdown">
-                        <a href="${p}index.html#area" class="nav-link active dropdown-toggle">Zone <span class="dropdown-arrow">▼</span></a>
+                        <a href="${p}index.html#area" class="nav-link active dropdown-toggle">${ZONE_NAV_LABEL} <span class="dropdown-arrow">▼</span></a>
                         <ul class="dropdown-menu">
                             ${dropdownActive}
                         </ul>
@@ -111,17 +78,14 @@ function buildPage(c) {
         <section class="zone-hero">
             <div class="container zone-hero-grid">
                 <div class="zone-hero-content">
-                    <span class="zone-hero-badge">📍 ${c.dept}</span>
+                    <span class="zone-hero-badge">${ICON.pin} ${c.dept}</span>
                     <h1>Nettoyage de Murs à <span class="highlight-city">${c.name}</span></h1>
                     <p class="zone-hero-lead">${c.lead}</p>
                     <div class="zone-hero-actions">
                         <a href="${p}contact.html" class="btn btn-primary btn-icon"><span>Devis Gratuit</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
                         <a href="tel:+33664334035" class="btn btn-secondary btn-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Appeler</span></a>
                     </div>
-                    <div class="zone-hero-trust">
-                        <span>⭐️ 4,9/5 avis clients</span>
-                        <span>⚡ Réponse sous 15 min</span>
-                        <span>🛡️ Garantie satisfaction</span>
+                    <div class="zone-hero-trust">${trustRowHtml()}
                     </div>
                 </div>
                 <div class="zone-hero-visual">
@@ -238,9 +202,9 @@ function buildPage(c) {
                 <li><a href="${p}blog.html">Notre Blog</a></li>
                 <li><a href="${p}contact.html">Contact</a></li>
             </ul></div>
-            <div class="footer-links"><h4>Zones</h4><ul>${footerZones}</ul></div>
+            <div class="footer-links"><h4>${ZONE_NAV_LABEL}</h4><ul>${footerZones}</ul></div>
             <div class="footer-contact"><h4>Nous Contacter</h4><p>SAR Nettoyage<br>Occitanie, France</p>
-                <p class="footer-contact-details"><span>📞 Tél. : <a href="tel:+33664334035">+33 6 64 33 40 35</a></span><span>✉️ Email : <a href="mailto:support@apexwallcare.com">support@apexwallcare.com</a></span></p>
+                ${footerContactHtml()}
             </div>
         </div>
         <div class="footer-bottom"><div class="container footer-bottom-flex">
@@ -260,7 +224,18 @@ function buildPage(c) {
 
 const dir = path.join(__dirname, '..', 'zones');
 if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-cities.forEach(c => {
+
+const validSlugs = new Set(cities.map((c) => c.slug));
+for (const file of fs.readdirSync(dir)) {
+  if (!file.endsWith('.html')) continue;
+  const slug = file.replace(/\.html$/, '');
+  if (!validSlugs.has(slug)) {
+    fs.unlinkSync(path.join(dir, file));
+    console.log('Removed', file);
+  }
+}
+
+cities.forEach((c) => {
   fs.writeFileSync(path.join(dir, c.slug + '.html'), buildPage(c), 'utf8');
   console.log('Created', c.slug + '.html');
 });

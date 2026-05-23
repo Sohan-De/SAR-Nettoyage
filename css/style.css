@@ -2,6 +2,8 @@
    APEX WALL CARE - PREMIUM WEBSITE STYLING
    ========================================================================== */
 
+@import url('icons.css');
+
 /* --------------------------------------------------------------------------
    1. Root Variables & Theme Definition
    -------------------------------------------------------------------------- */
@@ -121,6 +123,7 @@ button, input, select, textarea {
 .badge {
     display: inline-flex;
     align-items: center;
+    gap: 0.4rem;
     padding: 0.5rem 1rem;
     background-color: var(--primary-light);
     color: var(--primary);
@@ -2497,26 +2500,16 @@ a.area-card--link {
     overflow: hidden;
 }
 
-.blog-img-placeholder {
+.blog-img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    display: block;
     transition: transform var(--transition-smooth);
 }
 
-.blog-card:hover .blog-img-placeholder {
+.blog-card:hover .blog-img {
     transform: scale(1.05);
-}
-
-.blog-img-1 {
-    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #60a5fa 100%);
-}
-
-.blog-img-2 {
-    background: linear-gradient(135deg, #0f172a 0%, #334155 50%, #64748b 100%);
-}
-
-.blog-img-3 {
-    background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #38bdf8 100%);
 }
 
 .blog-content {
