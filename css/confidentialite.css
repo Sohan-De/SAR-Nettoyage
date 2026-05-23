@@ -1,0 +1,102 @@
+/* ==========================================================================
+   SAR Nettoyage — Politique de Confidentialité
+   Réutilise la mise en page légale (conditions.css) + accents page
+   ========================================================================== */
+
+@import url('conditions.css');
+
+#confidentialite-page .legal-hero {
+    background:
+        radial-gradient(ellipse 75% 55% at 80% 0%, rgba(16, 185, 129, 0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 50% at 10% 20%, var(--primary-light) 0%, transparent 50%),
+        var(--white);
+}
+
+#confidentialite-page .legal-hero-badge {
+    background: #ecfdf5;
+    color: #059669;
+}
+
+#confidentialite-page .legal-info-icon--privacy {
+    background: #ecfdf5;
+    color: #059669;
+}
+
+.legal-section code {
+    font-size: 0.85em;
+    background: var(--light-bg);
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    color: var(--dark);
+}
+
+.legal-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 1.25rem;
+    font-size: 0.9rem;
+}
+
+.legal-data-table th,
+.legal-data-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border: 1px solid var(--border-color);
+}
+
+.legal-data-table th {
+    background: var(--light-bg);
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.legal-data-table td {
+    color: var(--dark-muted);
+    vertical-align: top;
+}
+
+.legal-data-table tr:nth-child(even) td {
+    background: rgba(248, 250, 252, 0.6);
+}
+
+.legal-rights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin: 1rem 0 1.25rem;
+}
+
+.legal-right-card {
+    padding: 1rem 1.1rem;
+    background: var(--light-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+}
+
+.legal-right-card strong {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--dark);
+    margin-bottom: 0.25rem;
+}
+
+.legal-right-card span {
+    font-size: 0.82rem;
+    color: var(--dark-muted);
+    line-height: 1.45;
+}
+
+@media (max-width: 600px) {
+    .legal-rights-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .legal-data-table {
+        font-size: 0.8rem;
+    }
+
+    .legal-data-table th,
+    .legal-data-table td {
+        padding: 0.5rem 0.65rem;
+    }
+}

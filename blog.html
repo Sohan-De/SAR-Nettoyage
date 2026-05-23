@@ -1,0 +1,398 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conseils d'entretien, astuces professionnelles et actualités sur le nettoyage de murs en Occitanie par SAR Nettoyage.">
+    <meta name="keywords" content="blog nettoyage murs, conseils moisissure, entretien façades, occitanie">
+    <meta name="author" content="SAR Nettoyage">
+    <title>Notre Blog | SAR Nettoyage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="js/color.js"></script>
+</head>
+<body>
+
+    <header class="main-header" id="header">
+        <div class="container nav-container">
+            <a href="index.html#home" class="logo" id="logo-link">
+                <span class="logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="sparkle-svg"><path d="M12 3v16M8 5h8M3 12h18M5 8v8M19 8v8"/></svg>
+                </span>
+                <span class="logo-text">SAR <span class="highlight">Nettoyage</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir ou fermer le menu de navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html#home" class="nav-link">Accueil</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="index.html#services" class="nav-link dropdown-toggle">Services <span class="dropdown-arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/nettoyage-interieur.html">Nettoyage Intérieur</a></li>
+                            <li><a href="services/nettoyage-exterieur.html">Nettoyage Extérieur</a></li>
+                            <li><a href="services/anti-moisissure.html">Traitement Anti-Moisissure</a></li>
+                            <li><a href="services/fin-de-bail.html">Nettoyage Fin de Bail</a></li>
+                            <li><a href="services/bureaux-locaux.html">Bureaux &amp; Locaux</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="realisation.html" class="nav-link">Réalisations</a></li>
+                    <li class="nav-item-dropdown">
+                        <a href="index.html#area" class="nav-link dropdown-toggle">Zone <span class="dropdown-arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="zones/beziers.html">Béziers</a></li>
+                            <li><a href="zones/montpellier.html">Montpellier</a></li>
+                            <li><a href="zones/toulouse.html">Toulouse</a></li>
+                            <li><a href="zones/narbonne.html">Narbonne</a></li>
+                            <li><a href="zones/carcassonne.html">Carcassonne</a></li>
+                            <li><a href="zones/perpignan.html">Perpignan</a></li>
+                            <li><a href="zones/sete.html">Sète</a></li>
+                            <li><a href="zones/nimes.html">Nîmes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Devis Gratuit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="blog-hero">
+            <div class="container blog-hero-inner">
+                <span class="blog-hero-badge">✦ Conseils &amp; Actualités</span>
+                <h1>Notre Blog Professionnel</h1>
+                <p>Retrouvez nos guides d'entretien, astuces d'experts et actualités sur le nettoyage de murs, façades et traitements anti-moisissure en Occitanie.</p>
+            </div>
+        </section>
+
+        <section class="blog-page">
+            <div class="container">
+                <div class="blog-toolbar">
+                    <div class="blog-search-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <input type="search" class="blog-search" id="blog-search" placeholder="Rechercher un article..." aria-label="Rechercher dans le blog">
+                    </div>
+                    <div class="blog-filters" id="blog-filters" role="tablist" aria-label="Filtrer par catégorie">
+                        <button type="button" class="blog-filter-btn active" data-filter="all">Tous</button>
+                        <button type="button" class="blog-filter-btn" data-filter="conseils">Conseils</button>
+                        <button type="button" class="blog-filter-btn" data-filter="entretien">Entretien</button>
+                        <button type="button" class="blog-filter-btn" data-filter="actualite">Actualité</button>
+                        <button type="button" class="blog-filter-btn" data-filter="technique">Technique</button>
+                    </div>
+                </div>
+
+                <p class="blog-results-meta" id="blog-results-meta"><strong id="blog-count">9</strong> articles trouvés</p>
+
+                <div class="blog-layout">
+                    <div class="blog-main">
+                        <!-- Featured -->
+                        <article class="blog-featured blog-post-card" data-category="conseils" data-search="moisissure peinture traitement santé humidité">
+                            <div class="blog-featured-media">
+                                <span class="blog-featured-badge">À la une</span>
+                                <div class="blog-card-img blog-card-img--gradient blog-card-img--1" role="img" aria-label="Traitement anti-moisissure"></div>
+                            </div>
+                            <div class="blog-featured-body">
+                                <span class="blog-card-cat">Conseils</span>
+                                <h2 class="blog-featured-title">Comment éliminer les taches de moisissures sans abîmer la peinture ?</h2>
+                                <p class="blog-featured-excerpt">Les moisissures peuvent être dangereuses pour la santé. Découvrez nos techniques professionnelles pour les traiter efficacement et durablement sur vos murs intérieurs.</p>
+                                <div class="blog-featured-meta">
+                                    <span>📅 15 Mai 2026</span>
+                                    <span>⏱ 6 min de lecture</span>
+                                </div>
+                                <button type="button" class="blog-read-btn blog-open-article" data-article="mold">Lire l'article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                            </div>
+                        </article>
+
+                        <!-- Grid -->
+                        <div class="blog-grid-page" id="blog-grid">
+                            <article class="blog-post-card" data-category="entretien" data-search="erreurs nettoyage murs intérieurs produits gestes peinture">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--2" role="img" aria-label="Nettoyage murs intérieurs"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Entretien</span>
+                                    <h3 class="blog-card-title">5 erreurs à éviter lors du nettoyage de vos murs intérieurs</h3>
+                                    <p class="blog-card-excerpt">Beaucoup de propriétaires abîment involontairement leur peinture. Découvrez les pièges les plus courants.</p>
+                                    <div class="blog-card-footer">
+                                        <span>3 Mai 2026 · 5 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="mistakes">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="actualite" data-search="façade occitanie réglementation ravalement 2026">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--3" role="img" aria-label="Façades Occitanie"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Actualité</span>
+                                    <h3 class="blog-card-title">Nettoyage de façades en Occitanie : réglementation 2026</h3>
+                                    <p class="blog-card-excerpt">La réglementation sur le ravalement évolue. Restez en conformité avec les nouvelles exigences locales.</p>
+                                    <div class="blog-card-footer">
+                                        <span>20 Avr 2026 · 7 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="facade">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="technique" data-search="fumée cigarette suie nicotine odeur murs jaunes">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--4" role="img" aria-label="Taches de fumée"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Technique</span>
+                                    <h3 class="blog-card-title">Taches de fumée et nicotine : guide complet de restauration</h3>
+                                    <p class="blog-card-excerpt">Nos solutions professionnelles neutralisent les dépôts jaunes et les odeurs persistantes sur vos murs.</p>
+                                    <div class="blog-card-footer">
+                                        <span>12 Avr 2026 · 8 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="smoke">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="conseils" data-search="humidité eau infiltration taches brunes murs">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--5" role="img" aria-label="Taches d'humidité"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Conseils</span>
+                                    <h3 class="blog-card-title">Taches d'humidité sur les murs : causes et solutions durables</h3>
+                                    <p class="blog-card-excerpt">Identifiez l'origine des auréoles brunes et apprenez quand faire appel à un professionnel.</p>
+                                    <div class="blog-card-footer">
+                                        <span>28 Mar 2026 · 6 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="water">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="entretien" data-search="fin de bail état des lieux locataire propriétaire nettoyage">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--2" role="img" aria-label="Fin de bail"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Entretien</span>
+                                    <h3 class="blog-card-title">Fin de bail : checklist pour récupérer votre dépôt de garantie</h3>
+                                    <p class="blog-card-excerpt">Un nettoyage professionnel des murs peut faire la différence lors de l'état des lieux de sortie.</p>
+                                    <div class="blog-card-footer">
+                                        <span>15 Mar 2026 · 4 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="bail">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="technique" data-search="bureaux locaux professionnel désinfection allergènes">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--6" role="img" aria-label="Bureaux et locaux"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Technique</span>
+                                    <h3 class="blog-card-title">Pourquoi entretenir les murs de vos bureaux chaque trimestre ?</h3>
+                                    <p class="blog-card-excerpt">Un environnement propre améliore le bien-être des équipes et l'image de votre entreprise.</p>
+                                    <div class="blog-card-footer">
+                                        <span>2 Mar 2026 · 5 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="office">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="actualite" data-search="écologique bio produits nettoyage environnement occitanie">
+                                <div class="blog-card-media">
+                                    <div class="blog-card-img blog-card-img--gradient blog-card-img--3" role="img" aria-label="Produits écologiques"></div>
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Actualité</span>
+                                    <h3 class="blog-card-title">Nettoyage écologique : notre engagement pour l'Occitanie</h3>
+                                    <p class="blog-card-excerpt">SAR Nettoyage privilégie des produits certifiés, sans danger pour la famille, les animaux et l'environnement.</p>
+                                    <div class="blog-card-footer">
+                                        <span>18 Fév 2026 · 4 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="eco">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-post-card" data-category="conseils" data-search="extérieur terrasse façade pression soft wash">
+                                <div class="blog-card-media">
+                                    <img src="image/service_exterior.png" alt="Nettoyage façade extérieure" class="blog-card-img" loading="lazy">
+                                </div>
+                                <div class="blog-card-body">
+                                    <span class="blog-card-cat">Conseils</span>
+                                    <h3 class="blog-card-title">Façade ou terrasse : quand opter pour le soft wash ?</h3>
+                                    <p class="blog-card-excerpt">Le nettoyage haute pression n'est pas toujours la bonne solution. Voici comment choisir la méthode adaptée.</p>
+                                    <div class="blog-card-footer">
+                                        <span>5 Fév 2026 · 6 min</span>
+                                        <button type="button" class="blog-read-btn blog-open-article" data-article="softwash">Lire</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="blog-empty" id="blog-empty">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <h3>Aucun article trouvé</h3>
+                            <p>Essayez un autre mot-clé ou sélectionnez une autre catégorie.</p>
+                        </div>
+
+                        <div class="blog-cta-strip">
+                            <div>
+                                <h2>Besoin d'un nettoyage professionnel ?</h2>
+                                <p>Devis gratuit sous 15 minutes — intervention dans toute l'Occitanie.</p>
+                            </div>
+                            <a href="contact.html" class="btn btn-primary btn-icon">
+                                <span>Demander un Devis</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <aside class="blog-sidebar">
+                        <div class="blog-sidebar-card">
+                            <h3>Articles populaires</h3>
+                            <ul class="blog-popular-list">
+                                <li>
+                                    <a href="#" class="blog-popular-link" data-article="mold">
+                                        <span class="blog-popular-thumb"></span>
+                                        <span>
+                                            <span class="blog-popular-title">Éliminer les moisissures sans abîmer la peinture</span>
+                                            <span class="blog-popular-date">15 Mai 2026</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="blog-popular-link" data-article="mistakes">
+                                        <span class="blog-popular-thumb blog-popular-thumb--2"></span>
+                                        <span>
+                                            <span class="blog-popular-title">5 erreurs de nettoyage à éviter</span>
+                                            <span class="blog-popular-date">3 Mai 2026</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="blog-popular-link" data-article="smoke">
+                                        <span class="blog-popular-thumb blog-popular-thumb--3"></span>
+                                        <span>
+                                            <span class="blog-popular-title">Guide restauration taches de fumée</span>
+                                            <span class="blog-popular-date">12 Avr 2026</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="blog-sidebar-card">
+                            <h3>Catégories</h3>
+                            <div class="blog-tag-cloud" id="blog-tag-cloud">
+                                <button type="button" class="blog-tag" data-filter="conseils">Conseils</button>
+                                <button type="button" class="blog-tag" data-filter="entretien">Entretien</button>
+                                <button type="button" class="blog-tag" data-filter="actualite">Actualité</button>
+                                <button type="button" class="blog-tag" data-filter="technique">Technique</button>
+                            </div>
+                        </div>
+
+                        <div class="blog-sidebar-card blog-newsletter">
+                            <h3>Newsletter</h3>
+                            <p>Recevez nos conseils d'entretien directement dans votre boîte mail.</p>
+                            <form class="blog-newsletter-form" id="blog-newsletter-form">
+                                <input type="email" id="blog-newsletter-email" placeholder="votre@email.com" required aria-label="Adresse email newsletter">
+                                <button type="submit" class="btn btn-primary btn-full">S'abonner</button>
+                                <span class="blog-newsletter-feedback" id="blog-newsletter-feedback"></span>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Article modal -->
+    <div class="blog-modal" id="blog-modal" role="dialog" aria-modal="true" aria-labelledby="blog-modal-title" aria-hidden="true">
+        <div class="blog-modal-dialog">
+            <div class="blog-modal-header">
+                <button type="button" class="blog-modal-close" id="blog-modal-close" aria-label="Fermer l'article">&times;</button>
+                <span class="blog-modal-cat" id="blog-modal-cat"></span>
+                <h2 class="blog-modal-title" id="blog-modal-title"></h2>
+                <div class="blog-modal-meta" id="blog-modal-meta"></div>
+            </div>
+            <div class="blog-modal-body" id="blog-modal-body"></div>
+            <div class="blog-modal-footer">
+                <a href="contact.html" class="btn btn-primary btn-icon">
+                    <span>Demander un Devis</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html#home" class="logo">
+                    <span class="logo-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="sparkle-svg"><path d="M12 3v16M8 5h8M3 12h18M5 8v8M19 8v8"/></svg>
+                    </span>
+                    <span class="logo-text">SAR <span class="highlight">Nettoyage</span></span>
+                </a>
+                <p class="footer-desc">Experts en restauration de cloisons sèches, plâtre et bardages. Nettoyage profond écologique et sécurisé pour appartements et bureaux premium en Occitanie.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="index.html#home">Accueil</a></li>
+                    <li><a href="index.html#services">Nos Services</a></li>
+                    <li><a href="realisation.html">Nos Réalisations</a></li>
+                    <li><a href="index.html#area">Zone d'Intervention</a></li>
+                    <li><a href="blog.html">Notre Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services/nettoyage-interieur.html">Nettoyage Intérieur</a></li>
+                    <li><a href="services/nettoyage-exterieur.html">Nettoyage Extérieur</a></li>
+                    <li><a href="services/anti-moisissure.html">Traitement Anti-Moisissure</a></li>
+                    <li><a href="services/fin-de-bail.html">Nettoyage Fin de Bail</a></li>
+                    <li><a href="services/bureaux-locaux.html">Bureaux &amp; Locaux</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Nous Contacter</h4>
+                <p>SAR Nettoyage<br>Occitanie, France</p>
+                <p class="footer-contact-details">
+                    <span>📞 Tél. : <a href="tel:+33664334035">+33 6 64 33 40 35</a></span>
+                    <span>✉️ Email : <a href="mailto:support@apexwallcare.com">support@apexwallcare.com</a></span>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 SAR Nettoyage. Tous droits réservés.</p>
+                <div class="footer-bottom-links">
+                    <a href="confidentialite.html">Politique de Confidentialité</a>
+                    <a href="conditions.html">Conditions Générales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-actions">
+        <a href="tel:+33664334035" class="floating-btn call-float-btn" aria-label="Appeler un professionnel maintenant">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="https://wa.me/33664334035" target="_blank" rel="noopener" class="floating-btn whatsapp-float-btn" aria-label="Écrire sur WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

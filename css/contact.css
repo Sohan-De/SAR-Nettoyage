@@ -1,0 +1,208 @@
+/* ==========================================================================
+   SAR Nettoyage - Contact Page Premium Stylesheet
+   ========================================================================== */
+
+.contact-hero {
+    padding: 160px 0 60px 0;
+    background: radial-gradient(circle at 10% 20%, var(--primary-light) 0%, rgba(255,255,255,0) 50%), var(--white);
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.contact-hero p {
+    font-size: 1.2rem;
+    color: var(--dark-muted);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-page-layout {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.contact-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact-card-modern {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: all var(--transition-smooth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-card-modern:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(37, 99, 235, 0.15);
+}
+
+.contact-card-icon {
+    width: 64px;
+    height: 64px;
+    background-color: var(--primary-light);
+    color: var(--primary);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.contact-card-modern.whatsapp-theme-card .contact-card-icon {
+    background-color: #f0fdf4;
+    color: #16a34a;
+}
+
+.contact-card-modern h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 0.75rem;
+}
+
+.contact-card-modern p {
+    font-size: 0.95rem;
+    color: var(--dark-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.contact-card-action {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--primary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: gap var(--transition-fast);
+}
+
+.contact-card-modern:hover .contact-card-action {
+    gap: 0.75rem;
+}
+
+.contact-card-modern.whatsapp-theme-card .contact-card-action {
+    color: #16a34a;
+}
+
+.contact-main-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.contact-form-wrapper {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 3rem;
+    box-shadow: var(--shadow-md);
+}
+
+.contact-form-wrapper h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+}
+
+.contact-form-wrapper p {
+    color: var(--dark-muted);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+/* Map & Details Side */
+.contact-details-side {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info-bullet-card {
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.info-bullet-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--dark);
+}
+
+.bullet-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.bullet-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+    color: var(--dark-muted);
+    line-height: 1.6;
+}
+
+.bullet-list li svg {
+    color: var(--primary);
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
+/* Responsiveness */
+@media (max-width: 992px) {
+    .contact-cards-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-main-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-hero {
+        padding: 120px 0 40px 0;
+    }
+    .contact-hero h1 {
+        font-size: 2.2rem;
+    }
+    .contact-form-wrapper {
+        padding: 2rem 1.5rem;
+    }
+}
