@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 const { ICON, trustRowHtml, footerContactHtml } = require('./icon-snippets');
 const { cities, ZONE_NAV_LABEL } = require('./zones-data');
@@ -53,7 +53,9 @@ function buildPage(c) {
                         <a href="${p}index.html#services" class="nav-link dropdown-toggle">Services <span class="dropdown-arrow">▼</span></a>
                         <ul class="dropdown-menu">
                             <li><a href="${p}services/nettoyage-interieur.html">Nettoyage Intérieur</a></li>
-                            <li><a href="${p}services/nettoyage-exterieur.html">Nettoyage Extérieur</a></li>
+                            <li><a href="${p}services/nettoyage-exterieur.html">Nettoyage de Toitures</a></li>
+                            <li><a href="${p}services/traitement-hydrofuge-toiture.html">Hydrofuge Toiture</a></li>
+                            <li><a href="${p}services/nettoyage-gouttieres.html">Nettoyage Gouttières</a></li>
                             <li><a href="${p}services/anti-moisissure.html">Traitement Anti-Moisissure</a></li>
                             <li><a href="${p}services/fin-de-bail.html">Nettoyage Fin de Bail</a></li>
                             <li><a href="${p}services/bureaux-locaux.html">Bureaux &amp; Locaux</a></li>

@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const scrollPosition = window.scrollY + 100;
         const sections = document.querySelectorAll('section[id]');
         let currentSectionId = null;
-
+        
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.offsetHeight;
@@ -284,8 +284,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const title = currentCard.querySelector('.gallery-title').innerText;
 
                 if (img) {
-                    lightboxImg.src = img.src;
-                    lightboxImg.alt = img.alt;
+                lightboxImg.src = img.src;
+                lightboxImg.alt = img.alt;
                 } else if (fallbackSrc) {
                     lightboxImg.src = fallbackSrc;
                     lightboxImg.alt = title;

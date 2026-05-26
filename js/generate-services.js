@@ -28,25 +28,110 @@ const services = [
   },
   {
     slug: 'nettoyage-exterieur',
-    navLabel: 'Nettoyage Extérieur',
-    title: 'Nettoyage Murs Extérieurs',
-    badge: 'Façades & Bardages',
-    lead: 'Nettoyage haute pression doux et soft wash pour éliminer salissures atmosphériques, pollen et boue sur briques, enduit et bardages.',
-    cardNote: 'Soft wash & haute pression régulée',
-    img: 'service_exterior.png',
-    alt: 'Nettoyage de façade extérieure',
-    longText: 'Le climat méditerranéen encrasse rapidement les façades. Nous restaurons l\'aspect d\'origine de vos murs extérieurs sans abîmer les joints ni les revêtements.',
-    tags: ['Briques', 'Enduit', 'Bardage', 'Terrasses', 'Pollen & poussière', 'Algues vertes'],
+    navLabel: 'Nettoyage de Toitures',
+    title: 'Nettoyage & Démoussage de Toitures',
+    badge: 'Toitures & Démoussage',
+    lead: 'Nettoyage professionnel de toitures à Béziers et alentours : démoussage, retrait des algues et lichens, et remise en état des tuiles, ardoises et toits plats.',
+    cardNote: 'Démoussage doux & finition maîtrisée',
+    img: 'img.jpg',
+    alt: 'Nettoyage de toiture à Béziers',
+    longText:
+      'Une toiture encrassée accélère le vieillissement des matériaux. Sous l\'effet de l\'humidité méditerranéenne, la mousse, les algues vertes, les lichens et les résidus organiques s\'installent rapidement. <br><br>' +
+      'Chez SAR Nettoyage, nous réalisons d\'abord un diagnostic (type de revêtement, zones ombragées, niveau d\'encrassement). Ensuite, nous appliquons une méthode de nettoyage adaptée : démoussage en douceur, brossage contrôlé et nettoyage maîtrisé pour décoller les dépôts sans fragiliser les joints. <br><br>' +
+      'Nous protégeons le chantier (bâches, sécurisation des accès, évacuation des résidus). La finition comprend un rinçage contrôlé et des conseils pour limiter la repousse. Sur demande, un traitement hydrofuge peut être ajouté. <br><br>' +
+      'Résultat : une toiture visuellement remise à neuf, plus propre, et durable plus longtemps. Devis gratuit : intervention planifiée à Béziers et dans un rayon d\'environ 30 km.',
+    tags: [
+      'Démoussage',
+      'Traitement anti-mousse',
+      'Tuiles & ardoises',
+      'Toit plat',
+      'Algues & lichens',
+      'Nettoyage maîtrisé',
+      'Béziers & Occitanie',
+      'Prévention infiltration',
+    ],
     benefits: [
-      { title: 'Soft wash', text: 'Pression maîtrisée pour préserver les matériaux fragiles.' },
-      { title: 'Anti-mousse', text: 'Traitement préventif sur zones ombragées et humides.' },
-      { title: 'Hauteur sécurisée', text: 'Équipe formée pour façades et murs périphériques.' },
-      { title: 'Valorisation', text: 'Redonnez de l\'éclat et de la valeur à votre bien.' },
+      { title: 'Démoussage en douceur', text: 'Méthode adaptée pour préserver les matériaux et les joints.' },
+      { title: 'Résultat durable', text: 'Nettoyage complet + options de protection pour limiter la repousse.' },
+      { title: 'Sécurité du chantier', text: 'Protection des abords, accès sécurisé et nettoyage des résidus.' },
+      { title: 'Devis gratuit', text: 'Estimation claire après diagnostic, sans engagement.' },
     ],
     steps: [
-      { title: 'Préparation', text: 'Protection des ouvertures, végétation et accès sécurisé.' },
-      { title: 'Nettoyage', text: 'Soft wash ou basse pression selon le revêtement.' },
-      { title: 'Finition', text: 'Rinçage contrôlé et inspection de la façade.' },
+      { title: 'Diagnostic toiture', text: 'Évaluation du revêtement, des zones encrassées et des points sensibles (joints, gouttières, accès).' },
+      { title: 'Sécurisation & préparation', text: 'Mise en place des protections, accès sécurisés et protection des évacuations.' },
+      { title: 'Démoussage & nettoyage', text: 'Brossage contrôlé et nettoyage adapté pour retirer algues, mousses et résidus.' },
+      { title: 'Finition & conseils', text: 'Rinçage maîtrisé, inspection visuelle et recommandations d\'entretien (option hydrofuge).' },
+    ],
+  },
+  {
+    slug: 'traitement-hydrofuge-toiture',
+    navLabel: 'Hydrofuge Toiture',
+    title: 'Traitement Hydrofuge & Protection de Toiture',
+    badge: 'Protection Durable',
+    lead: 'Après démoussage, application d\'un hydrofuge pour repousser l\'eau, limiter l\'encrassement et réduire la prolifération des mousses.',
+    cardNote: 'Option de protection après nettoyage',
+    img: 'img5.webp',
+    alt: 'Traitement hydrofuge toiture (anti-mousse) à Béziers',
+    longText:
+      'Le nettoyage rend la toiture plus propre, mais la protection prolonge la durée de vie. Le traitement hydrofuge aide à limiter l\'accumulation d\'eau en surface et à réduire les conditions favorables aux algues et à la mousse. <br><br>' +
+      'Notre protocole : démoussage et nettoyage préalables, puis application du produit selon le type de revêtement (tuiles, ardoises, toit plat). L\'objectif est un effet répulsif durable, tout en respectant la compatibilité des matériaux et la respirabilité de la toiture. <br><br>' +
+      'Nous privilégions un rendu homogène, avec une application maîtrisée sur les zones concernées. Un devis gratuit permet de choisir la meilleure solution selon l\'état et l\'exposition de votre toit. <br><br>' +
+      'Zone d\'intervention : Béziers et alentours (rayon d\'environ 30 km).',
+    tags: [
+      'Hydrofuge',
+      'Anti-mousse',
+      'Repousse eau',
+      'Toitures tuiles & ardoises',
+      'Toit plat',
+      'Protection préventive',
+      'Béziers',
+      'Occitanie',
+    ],
+    benefits: [
+      { title: 'Repousse réduite', text: 'Moins de conditions d\'humidité de surface, donc moins de repousse.' },
+      { title: 'Protection longue durée', text: 'Effet hydrofuge adapté à votre toiture après nettoyage.' },
+      { title: 'Rendu homogène', text: 'Application contrôlée pour une protection régulière.' },
+      { title: 'Conseil au diagnostic', text: 'Choix de la solution selon exposition et encrassement.' },
+    ],
+    steps: [
+      { title: 'Diagnostic & préparation', text: 'Contrôle de l\'état, vérification des zones sensibles et nettoyage préalable si nécessaire.' },
+      { title: 'Application hydrofuge', text: 'Mise en place des protections et application du traitement sur les surfaces ciblées.' },
+      { title: 'Séchage & contrôle', text: 'Inspection finale, temps de séchage et conseils d\'entretien.' },
+    ],
+  },
+  {
+    slug: 'nettoyage-gouttieres',
+    navLabel: 'Nettoyage Gouttières',
+    title: 'Nettoyage & Dégorgement des Gouttières',
+    badge: 'Gouttières Propre',
+    lead: 'Gouttières et descentes bouchées = risques d\'infiltration. Nous nettoyons, dégageons et remettons en état pour protéger votre toiture et vos murs.',
+    cardNote: 'Prévention dégâts des eaux',
+    img: 'img6.jpg',
+    alt: 'Nettoyage de gouttières à Béziers',
+    longText:
+      'Les feuilles, mousses, résidus végétaux et poussières s\'accumulent dans les gouttières et bloquent l\'évacuation des eaux. Avec le temps, cela favorise les débordements, l\'humidité sous les tuiles et des traces sur les façades. <br><br>' +
+      'SAR Nettoyage intervient à Béziers pour remettre vos gouttières en état : nettoyage complet, dégagement des descentes si nécessaire, puis contrôle de l\'écoulement. Nous traitons également les zones où la mousse s\'installe fréquemment. <br><br>' +
+      'Nous sécurisons le chantier, protégeons les abords et évacuons les résidus. Un diagnostic rapide permet d\'anticiper les causes de bouchage et de prévenir la récidive. <br><br>' +
+      'Devis gratuit et intervention planifiée selon disponibilité.',
+    tags: [
+      'Gouttières',
+      'Descentes',
+      'Dégorgement',
+      'Anti-infiltration',
+      'Prévention',
+      'Toiture',
+      'Béziers & Occitanie',
+    ],
+    benefits: [
+      { title: 'Moins d\'infiltrations', text: 'Évacuation d\'eau rétablie pour protéger toiture et murs.' },
+      { title: 'Toiture plus saine', text: 'Réduction de l\'humidité stagnante sous les matériaux.' },
+      { title: 'Chantier sécurisé', text: 'Protections et nettoyage des résidus pour un rendu propre.' },
+      { title: 'Devis gratuit', text: 'Estimation claire selon configuration des gouttières et accessibilité.' },
+    ],
+    steps: [
+      { title: 'Diagnostic & accès', text: 'Repérage des points de blocage et vérification de l\'accès.' },
+      { title: 'Nettoyage des gouttières', text: 'Retrait des résidus, nettoyage et brossage contrôlé.' },
+      { title: 'Dégagement & contrôle écoulement', text: 'Vérification du flux et ajustements si besoin.' },
     ],
   },
   {
