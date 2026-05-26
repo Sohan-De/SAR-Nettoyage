@@ -26,10 +26,10 @@ function buildPage(c) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nettoyage professionnel de murs à ${c.name} — SAR Nettoyage. Intérieur, extérieur, anti-moisissure. Devis gratuit.">
-    <meta name="keywords" content="nettoyage murs ${c.name}, nettoyage facade ${c.name}, occitanie">
+    <meta name="description" content="Nettoyage de toiture, démoussage et hydrofuge à ${c.name} (34) — SAR Nettoyage. Entretien professionnel de tuiles, gouttières et façades. Devis gratuit.">
+    <meta name="keywords" content="nettoyage toiture ${c.name}, demoussage toiture ${c.name}, hydrofuge toiture ${c.name}, nettoyage facade ${c.name}, entreprise nettoyage toiture 34">
     <meta name="author" content="SAR Nettoyage">
-    <title>Nettoyage de Murs à ${c.name} | SAR Nettoyage</title>
+    <title>Nettoyage de Toiture &amp; Démoussage à ${c.name} | SAR Nettoyage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -81,7 +81,7 @@ function buildPage(c) {
             <div class="container zone-hero-grid">
                 <div class="zone-hero-content">
                     <span class="zone-hero-badge">${ICON.pin} ${c.dept}</span>
-                    <h1>Nettoyage de Murs à <span class="highlight-city">${c.name}</span></h1>
+                    <h1>Nettoyage de Toiture à <span class="highlight-city">${c.name}</span></h1>
                     <p class="zone-hero-lead">${c.lead}</p>
                     <div class="zone-hero-actions">
                         <a href="${p}contact.html" class="btn btn-primary btn-icon"><span>Devis Gratuit</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
@@ -115,14 +115,14 @@ function buildPage(c) {
             <div class="container">
                 <div class="zone-section-header scroll-reveal">
                     <span class="section-subtitle">Nos Services à ${c.name}</span>
-                    <h2 class="section-title">Solutions Complètes pour Vos Murs</h2>
-                    <p class="section-desc">Nous adaptons nos techniques au climat et aux types de bâtiments de ${c.name} et ses environs.</p>
+                    <h2 class="section-title">Solutions Professionnelles de Toiture &amp; Extérieur</h2>
+                    <p class="section-desc">Nous adaptons nos techniques au climat méditerranéen et aux types de toitures de ${c.name} et ses environs.</p>
                 </div>
                 <div class="zone-services-grid scroll-reveal">
-                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div><h3>Murs Intérieurs</h3><p>Salons, chambres, couloirs et cuisines — sans abîmer la peinture.</p></div>
-                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg></div><h3>Façades &amp; Terrasses</h3><p>Soft wash et nettoyage haute pression adapté aux bardages.</p></div>
-                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/></svg></div><h3>Anti-Moisissure</h3><p>Traitement durable des zones humides, salles de bain incluses.</p></div>
-                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg></div><h3>Fin de Bail &amp; Bureaux</h3><p>Remise en état rapide pour locataires et professionnels.</p></div>
+                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div><h3>Démoussage &amp; Toiture</h3><p>Retrait des mousses, lichens et algues sur tous types de tuiles pour éviter la porosité.</p></div>
+                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-11-7-11S5 10.7 5 15a7 7 0 0 0 7 7z"/></svg></div><h3>Hydrofuge de Toiture</h3><p>Imperméabilisation incolore ou colorée pour protéger durablement vos tuiles.</p></div>
+                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg></div><h3>Nettoyage Façades</h3><p>Soft wash basse pression pour éliminer les traces rouges, noires et salissures.</p></div>
+                    <div class="zone-service-card"><div class="zone-service-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg></div><h3>Nettoyage Gouttières</h3><p>Dégorgement complet des feuilles et débris pour prévenir les infiltrations sous toiture.</p></div>
                 </div>
             </div>
         </section>
@@ -182,7 +182,7 @@ function buildPage(c) {
             <div class="container">
                 <div class="zone-cta-card scroll-reveal">
                     <div>
-                        <h2>Besoin d'un nettoyage de murs à ${c.name} ?</h2>
+                        <h2>Besoin d'un nettoyage de toiture à ${c.name} ?</h2>
                         <p>Obtenez votre devis gratuit personnalisé. Notre équipe vous rappelle en moins de 15 minutes.</p>
                     </div>
                     <a href="${p}contact.html" class="btn btn-secondary btn-icon"><span>Demander un Devis</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
@@ -195,7 +195,7 @@ function buildPage(c) {
         <div class="container footer-grid">
             <div class="footer-brand">
                 <a href="${p}index.html#home" class="logo"><span class="logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="sparkle-svg"><path d="M12 3v16M8 5h8M3 12h18M5 8v8M19 8v8"/></svg></span><span class="logo-text">SAR <span class="highlight">Nettoyage</span></span></a>
-                <p class="footer-desc">Experts en restauration de cloisons sèches, plâtre et bardages. Nettoyage profond écologique et sécurisé pour appartements et bureaux premium en Occitanie.</p>
+                <p class="footer-desc">Experts en nettoyage de toiture, démoussage, traitement hydrofuge et nettoyage de façade. Service écologique et sécurisé à Béziers et dans l'Hérault.</p>
             </div>
             <div class="footer-links"><h4>Liens Rapides</h4><ul>
                 <li><a href="${p}index.html#home">Accueil</a></li>

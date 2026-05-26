@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 const { ICON, trustRowHtml, footerContactHtml } = require('./icon-snippets');
 
@@ -12,6 +12,8 @@ const services = [
     cardNote: 'Appartements, maisons & résidences en Occitanie',
     img: 'img3.jpg',
     alt: 'Nettoyage de murs intérieurs professionnel',
+    metaDesc: 'Nettoyage professionnel de murs intérieurs à Béziers et Occitanie. Élimination des taches, traces de doigts, graisse et jaunissement sans abîmer la peinture.',
+    metaKeywords: 'nettoyage mur intérieur, enlever tache mur, nettoyage peinture, nettoyage maison beziers',
     longText: 'Nos techniciens SAR Nettoyage traitent taches de graisse, traces de doigts, salissures et jaunissement sur peinture mate, satinée ou lessivable. Méthode douce, produits écologiques certifiés.',
     tags: ['Salons & chambres', 'Couloirs', 'Cuisines', 'Plâtre & peinture', 'Sans odeur', 'Séchage rapide'],
     benefits: [
@@ -29,24 +31,26 @@ const services = [
   {
     slug: 'nettoyage-exterieur',
     navLabel: 'Nettoyage de Toitures',
-    title: 'Nettoyage & Démoussage de Toitures',
-    badge: 'Toitures & Démoussage',
-    lead: 'Nettoyage professionnel de toitures à Béziers et alentours : démoussage, retrait des algues et lichens, et remise en état des tuiles, ardoises et toits plats.',
+    title: 'Nettoyage & Démoussage de Toiture Béziers',
+    badge: 'Service N°1 - Toiture',
+    lead: 'SAR Nettoyage est votre spécialiste du nettoyage de toiture et démoussage de toiture à Béziers et dans tout l\'Hérault. Nous éliminons mousses, algues et lichens pour redonner éclat et étanchéité à vos tuiles.',
     cardNote: 'Démoussage doux & finition maîtrisée',
     img: 'img.jpg',
     alt: 'Nettoyage de toiture à Béziers',
+    metaDesc: 'Démoussage et nettoyage de toiture à Béziers. Élimination des mousses, lichens et algues sur tuiles, ardoises et toits plats. Devis gratuit sous 15 min.',
+    metaKeywords: 'nettoyage toiture beziers, demoussage toiture beziers, demoussage toiture herault, anti mousse toiture, nettoyage toit tuile',
     longText:
-      'Une toiture encrassée accélère le vieillissement des matériaux. Sous l\'effet de l\'humidité méditerranéenne, la mousse, les algues vertes, les lichens et les résidus organiques s\'installent rapidement. <br><br>' +
-      'Chez SAR Nettoyage, nous réalisons d\'abord un diagnostic (type de revêtement, zones ombragées, niveau d\'encrassement). Ensuite, nous appliquons une méthode de nettoyage adaptée : démoussage en douceur, brossage contrôlé et nettoyage maîtrisé pour décoller les dépôts sans fragiliser les joints. <br><br>' +
-      'Nous protégeons le chantier (bâches, sécurisation des accès, évacuation des résidus). La finition comprend un rinçage contrôlé et des conseils pour limiter la repousse. Sur demande, un traitement hydrofuge peut être ajouté. <br><br>' +
-      'Résultat : une toiture visuellement remise à neuf, plus propre, et durable plus longtemps. Devis gratuit : intervention planifiée à Béziers et dans un rayon d\'environ 30 km.',
+      'Une toiture encrassée ou recouverte de mousse accélère la porosité et le vieillissement des tuiles. À Béziers et sous le climat humide de l\'Occitanie, la mousse de toit, les algues vertes et les lichens s\'installent rapidement. <br><br>' +
+      'Chez SAR Nettoyage, nous réalisons d\'abord un diagnostic gratuit de l\'état de vos tuiles. Ensuite, nous appliquons une méthode de démoussage de toiture adaptée et sécurisée. Nous utilisons des traitements anti-mousse professionnels biodégradables qui pénètrent le support en profondeur pour éliminer les racines des végétaux sans abîmer les joints de dilatation ni fragiliser les tuiles. <br><br>' +
+      'Nos équipes de couvreurs-nettoyeurs protègent soigneusement le chantier (bâches sur la végétation, récupération des résidus de mousse). Le rinçage s\'effectue à basse pression (soft wash) ou moyenne pression contrôlée pour respecter les matériaux. Nous recommandons toujours un traitement hydrofuge de toiture complémentaire pour imperméabiliser la surface et empêcher la réapparition des mousses. <br><br>' +
+      'Confiez votre entretien de toiture à une entreprise locale de confiance. Contactez-nous pour un devis gratuit de nettoyage de toiture à Béziers et dans un rayon de 30 km.',
     tags: [
-      'Démoussage',
+      'Démoussage toiture',
       'Traitement anti-mousse',
       'Tuiles & ardoises',
       'Toit plat',
       'Algues & lichens',
-      'Nettoyage maîtrisé',
+      'Nettoyage de toit',
       'Béziers & Occitanie',
       'Prévention infiltration',
     ],
@@ -66,19 +70,21 @@ const services = [
   {
     slug: 'traitement-hydrofuge-toiture',
     navLabel: 'Hydrofuge Toiture',
-    title: 'Traitement Hydrofuge & Protection de Toiture',
-    badge: 'Protection Durable',
-    lead: 'Après démoussage, application d\'un hydrofuge pour repousser l\'eau, limiter l\'encrassement et réduire la prolifération des mousses.',
+    title: 'Traitement Hydrofuge de Toiture Béziers',
+    badge: 'Protection Toiture 10 ans',
+    lead: 'Protégez durablement vos tuiles avec un traitement hydrofuge de toiture professionnel à Béziers et en Occitanie. L\'hydrofuge crée une barrière imperméable autonettoyante contre l\'eau de pluie et les mousses.',
     cardNote: 'Option de protection après nettoyage',
     img: 'img5.webp',
     alt: 'Traitement hydrofuge toiture (anti-mousse) à Béziers',
+    metaDesc: 'Application de traitement hydrofuge de toiture à Béziers et dans l\'Hérault. Imperméabilisation et protection durable contre l\'humidité, les mousses et la pluie.',
+    metaKeywords: 'traitement hydrofuge toiture, hydrofuge toiture beziers, imperméabilisation toiture, anti mousse toiture, protection tuiles 34',
     longText:
-      'Le nettoyage rend la toiture plus propre, mais la protection prolonge la durée de vie. Le traitement hydrofuge aide à limiter l\'accumulation d\'eau en surface et à réduire les conditions favorables aux algues et à la mousse. <br><br>' +
-      'Notre protocole : démoussage et nettoyage préalables, puis application du produit selon le type de revêtement (tuiles, ardoises, toit plat). L\'objectif est un effet répulsif durable, tout en respectant la compatibilité des matériaux et la respirabilité de la toiture. <br><br>' +
-      'Nous privilégions un rendu homogène, avec une application maîtrisée sur les zones concernées. Un devis gratuit permet de choisir la meilleure solution selon l\'état et l\'exposition de votre toit. <br><br>' +
-      'Zone d\'intervention : Béziers et alentours (rayon d\'environ 30 km).',
+      'Le nettoyage et le démoussage éliminent la saleté, mais l\'application d\'un traitement hydrofuge de toiture garantit la longévité de votre toit. Le produit hydrofuge pénètre les pores des tuiles (tuiles en terre cuite, béton, ardoises) et forme un film protecteur imperméabilisant. L\'eau de pluie glisse sur la surface en emportant les poussières, empêchant l\'humidité de s\'installer et réduisant drastiquement le retour des mousses et lichens. <br><br>' +
+      'SAR Nettoyage vous propose deux types d\'hydrofuges : l\'hydrofuge incolore (qui préserve l\'aspect d\'origine) et l\'hydrofuge coloré (idéal pour rénover et recolorer des tuiles ternies). Notre équipe à Béziers applique le traitement de façon homogène par pulvérisation après un nettoyage complet. <br><br>' +
+      'En choisissant notre hydrofuge de toiture dans l\'Hérault, vous évitez les infiltrations d\'eau et les fissures causées par le gel en hiver. La toiture reste respirante tout en étant totalement étanche. <br><br>' +
+      'Demandez votre diagnostic et devis gratuit pour imperméabiliser votre toiture à Béziers et ses environs.',
     tags: [
-      'Hydrofuge',
+      'Hydrofuge toiture',
       'Anti-mousse',
       'Repousse eau',
       'Toitures tuiles & ardoises',
@@ -95,31 +101,32 @@ const services = [
     ],
     steps: [
       { title: 'Diagnostic & préparation', text: 'Contrôle de l\'état, vérification des zones sensibles et nettoyage préalable si nécessaire.' },
-      { title: 'Application hydrofuge', text: 'Mise en place des protections et application du traitement sur les surfaces ciblées.' },
+      { title: 'Application hydrofuge', text: 'Mise en place des protections and application du traitement sur les surfaces ciblées.' },
       { title: 'Séchage & contrôle', text: 'Inspection finale, temps de séchage et conseils d\'entretien.' },
     ],
   },
   {
     slug: 'nettoyage-gouttieres',
     navLabel: 'Nettoyage Gouttières',
-    title: 'Nettoyage & Dégorgement des Gouttières',
-    badge: 'Gouttières Propre',
-    lead: 'Gouttières et descentes bouchées = risques d\'infiltration. Nous nettoyons, dégageons et remettons en état pour protéger votre toiture et vos murs.',
+    title: 'Nettoyage & Débouchage de Gouttières Béziers',
+    badge: 'Prévention Infiltrations',
+    lead: 'Évitez les infiltrations d\'eau et protégez vos façades. SAR Nettoyage réalise le nettoyage de gouttières et le débouchage des descentes pluviales à Béziers et dans l\'Hérault.',
     cardNote: 'Prévention dégâts des eaux',
     img: 'img6.jpg',
     alt: 'Nettoyage de gouttières à Béziers',
+    metaDesc: 'Nettoyage et débouchage de gouttières à Béziers. Évitez les infiltrations d\'eau sous toiture et protégez vos façades. Intervention rapide et devis gratuit.',
+    metaKeywords: 'nettoyage gouttieres beziers, debouchage gouttiere herault, entretien gouttieres, anti infiltration toiture',
     longText:
-      'Les feuilles, mousses, résidus végétaux et poussières s\'accumulent dans les gouttières et bloquent l\'évacuation des eaux. Avec le temps, cela favorise les débordements, l\'humidité sous les tuiles et des traces sur les façades. <br><br>' +
-      'SAR Nettoyage intervient à Béziers pour remettre vos gouttières en état : nettoyage complet, dégagement des descentes si nécessaire, puis contrôle de l\'écoulement. Nous traitons également les zones où la mousse s\'installe fréquemment. <br><br>' +
-      'Nous sécurisons le chantier, protégeons les abords et évacuons les résidus. Un diagnostic rapide permet d\'anticiper les causes de bouchage et de prévenir la récidive. <br><br>' +
-      'Devis gratuit et intervention planifiée selon disponibilité.',
+      'Les feuilles mortes, aiguilles de pin, mousses de toiture et résidus de tuiles s\'accumulent inévitablement dans les gouttières. Lors de fortes pluies à Béziers, une gouttière bouchée déborde, provoquant des infiltrations sous le toit et des traces d\'humidité inesthétiques sur vos façades. <br><br>' +
+      'SAR Nettoyage intervient en toute sécurité pour le nettoyage complet de vos gouttières en zinc, PVC ou alu. Notre protocole comprend le retrait manuel des débris, le nettoyage haute pression doux de l\'intérieur de la gouttière et le débouchage des descentes pluviales. <br><br>' +
+      'Nous effectuons également un contrôle d\'écoulement de l\'eau pour s\'assurer du bon fonctionnement de votre système de collecte des eaux de pluie. Un entretien régulier des gouttières (au moins une fois par an) prévient les dégâts des eaux coûteux. <br><br>' +
+      'Contactez-nous pour un nettoyage de gouttières rapide et au meilleur prix à Béziers.',
     tags: [
-      'Gouttières',
-      'Descentes',
-      'Dégorgement',
+      'Gouttières zinc & PVC',
+      'Descentes pluviales',
+      'Dégorgement de feuilles',
       'Anti-infiltration',
-      'Prévention',
-      'Toiture',
+      'Prévention toiture',
       'Béziers & Occitanie',
     ],
     benefits: [
@@ -143,6 +150,8 @@ const services = [
     cardNote: 'Traitement fongicide professionnel',
     img: 'img2.jpg',
     alt: 'Traitement anti-moisissure sur murs',
+    metaDesc: 'Traitement anti-moisissure professionnel des murs à Béziers. Élimination des spores, désinfection et prévention de l\'humidité en cuisine et salle de bain.',
+    metaKeywords: 'traitement anti moisissure beziers, eliminer moisissure mur, humidité maison, traitement fongicide occitanie',
     longText: 'La moisissure noire ou verte n\'est pas qu\'esthétique : elle affecte la qualité de l\'air. Nous éliminons les spores en profondeur et appliquons un traitement préventif longue durée.',
     tags: ['Salle de bain', 'Cuisine', 'Cave humide', 'Joints silicone', 'Plafonds', 'Prévention'],
     benefits: [
@@ -166,6 +175,8 @@ const services = [
     cardNote: 'Conforme état des lieux',
     img: 'img3.jpg',
     alt: 'Nettoyage fin de bail murs',
+    metaDesc: 'Nettoyage de murs fin de bail à Béziers. Remise en état rapide et conforme pour récupérer votre caution d\'état des lieux. Devis gratuit.',
+    metaKeywords: 'nettoyage fin de bail beziers, nettoyage etat des lieux, lavage mur caution, nettoyage appartement beziers',
     longText: 'Évitez les retenues sur caution : nous nettoyons traces, taches et salissures sur tous les murs du logement pour un rendu impeccable à l\'état des lieux.',
     tags: ['Appartement', 'Studio', 'Maison', 'Taches murales', 'Cuisine & SdB', 'Intervention rapide'],
     benefits: [
@@ -189,6 +200,8 @@ const services = [
     cardNote: 'Intervention hors heures possible',
     img: 'img7.png',
     alt: 'Nettoyage murs bureaux et locaux',
+    metaDesc: 'Nettoyage professionnel de locaux commerciaux et bureaux à Béziers et Occitanie. Entretien des cloisons et murs pour des espaces de travail impeccables.',
+    metaKeywords: 'nettoyage bureaux beziers, nettoyage locaux professionnels, entretien cloisons entreprise, nettoyage commerce herault',
     longText: 'L\'image de votre entreprise passe aussi par la propreté de vos locaux. Nous intervenons discrètement et efficacement sur cloisons, peintures et surfaces murales.',
     tags: ['Open space', 'Salles de réunion', 'Accueil', 'Commerces', 'Cabinets', 'Copropriétés'],
     benefits: [
@@ -243,8 +256,8 @@ function buildPage(s) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="${s.title} en Occitanie — SAR Nettoyage. ${s.lead.slice(0, 120)}… Devis gratuit.">
-    <meta name="keywords" content="${s.slug.replace(/-/g, ' ')}, nettoyage murs, occitanie">
+    <meta name="description" content="${s.metaDesc}">
+    <meta name="keywords" content="${s.metaKeywords}">
     <meta name="author" content="SAR Nettoyage">
     <title>${s.title} | SAR Nettoyage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -400,7 +413,7 @@ function buildPage(s) {
         <div class="container footer-grid">
             <div class="footer-brand">
                 <a href="${p}index.html#home" class="logo"><span class="logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="sparkle-svg"><path d="M12 3v16M8 5h8M3 12h18M5 8v8M19 8v8"/></svg></span><span class="logo-text">SAR <span class="highlight">Nettoyage</span></span></a>
-                <p class="footer-desc">Experts en restauration de cloisons sèches, plâtre et bardages. Nettoyage profond écologique et sécurisé pour appartements et bureaux premium en Occitanie.</p>
+                <p class="footer-desc">Experts en nettoyage de toiture, démoussage, traitement hydrofuge et nettoyage de façade. Service écologique et sécurisé à Béziers et dans l'Hérault.</p>
             </div>
             <div class="footer-links"><h4>Liens Rapides</h4><ul>
                 <li><a href="${p}index.html#home">Accueil</a></li>

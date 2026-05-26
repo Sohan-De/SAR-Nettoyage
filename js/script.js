@@ -579,21 +579,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const blogArticles = {
         mold: {
             cat: 'Conseils',
-            title: 'Comment éliminer les taches de moisissures sans abîmer la peinture ?',
+            title: 'Démoussage de toiture à Béziers : éliminer les mousses et lichens sans endommager vos tuiles',
             meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 15 Mai 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 min de lecture</span>',
-            body: `<p>Les moisissures ne sont pas qu'un problème esthétique : elles peuvent affecter la qualité de l'air intérieur et la santé des occupants, surtout dans les pièces humides comme les salles de bain et les cuisines.</p>
-                   <p>Chez SAR Nettoyage, nous utilisons des produits certifiés et des techniques en douceur qui pénètrent la surface sans dégrader les liants de la peinture. L'étape clé consiste à traiter la cause (humidité, ventilation) avant d'appliquer un nettoyage ciblé et une protection anti-moisissure.</p>
-                   <p>Évitez l'eau de Javel pure sur les murs peints : elle peut jaunir ou fragiliser le revêtement. Préférez un diagnostic professionnel pour un résultat durable et sans risque pour votre logement.</p>`
+            body: `<p>L'humidité et le soleil d'Occitanie favorisent la prolifération rapide des mousses, lichens et algues sur les toitures. Si elle n'est pas traitée, la mousse rend les tuiles poreuses et fragiles, provoquant des fissures avec le gel en hiver et entraînant des infiltrations d'eau coûteuses.</p>
+                   <p>Chez SAR Nettoyage, nous utilisons des produits certifiés et des techniques en douceur qui éliminent les végétaux nuisibles en profondeur sans abîmer les tuiles de votre toit. Notre étape clé consiste à réaliser un brossage soigné suivi d'un traitement anti-mousse professionnel à action rémanente.</p>
+                   <p>Évitez absolument l'utilisation de nettoyeurs haute pression sans contrôle ou de produits chlorés agressifs qui détruisent la protection naturelle de vos tuiles. Préférez un démoussage de toiture professionnel pour un résultat durable et sécurisé.</p>`
         },
         mistakes: {
             cat: 'Entretien',
-            title: '5 erreurs à éviter lors du nettoyage de vos murs intérieurs',
+            title: '5 erreurs à éviter absolument lors du nettoyage de votre toiture',
             meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 3 Mai 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 5 min de lecture</span>',
-            body: `<p><strong>1. Utiliser des produits trop agressifs</strong> — Les solvants puissants peuvent dissoudre la finition de votre peinture.</p>
-                   <p><strong>2. Frotter trop fort</strong> — Un chiffon abrasif laisse des marques brillantes impossibles à rattraper.</p>
-                   <p><strong>3. Nettoyer à sec sans dépoussiérage</strong> — La poussière raye la surface lors du passage humide.</p>
-                   <p><strong>4. Ignorer les zones humides</strong> — Un mur mouillé sans séchage prolonge les risques de moisissure.</p>
-                   <p><strong>5. Tout faire soi-même sur de grandes surfaces</strong> — Un professionnel garantit homogénéité, sécurité et gain de temps.</p>`
+            body: `<p><strong>1. Utiliser un nettoyeur haute pression à pleine puissance</strong> — La force excessive peut casser ou fendre vos tuiles et rendre la surface poreuse, favorisant le retour encore plus rapide des mousses.</p>
+                   <p><strong>2. Négliger les gouttières pendant le nettoyage</strong> — Accumuler les débris de mousse dans les descentes pluviales provoque des bouchons et des infiltrations d'eau.</p>
+                   <p><strong>3. Utiliser de l'eau de Javel pure</strong> — Le chlore corrode les fixations métalliques, blanchit les tuiles et détruit la végétation environnante.</p>
+                   <p><strong>4. Intervenir sans équipement de sécurité adapté</strong> — Travailler sur un toit glissant sans harnais ni points d'ancrage est extrêmement dangereux.</p>
+                   <p><strong>5. Ignorer le traitement préventif de fin</strong> — Un simple nettoyage sans application d'anti-mousse ou d'hydrofuge ne dure que quelques mois.</p>`
         },
         facade: {
             cat: 'Actualité',
@@ -645,11 +645,11 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         softwash: {
             cat: 'Conseils',
-            title: 'Façade ou terrasse : quand opter pour le soft wash ?',
+            title: 'Traitement hydrofuge de toiture : la solution ultime contre l\'humidité',
             meta: '<span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 5 Fév 2026</span> · <span class="meta-inline"><svg class="icon-flat" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 6 min de lecture</span>',
-            body: `<p>Le nettoyage haute pression convient aux surfaces très résistantes, mais peut endommager enduits fins, joints ou peintures délicates. Le soft wash combine basse pression et solution active pour dissoudre salissures et algues en douceur.</p>
-                   <p>Idéal pour façades claires, terrasses en pierre reconstituée et bardages. Nos équipes évaluent sur place la méthode la plus sûre pour votre bien.</p>
-                   <p>Voir nos réalisations extérieures sur la page d'accueil ou demandez un devis personnalisé.</p>`
+            body: `<p>Le traitement hydrofuge de toiture est un imperméabilisant liquide appliqué après le nettoyage. Il bouche les micro-pores des tuiles tout en les laissant respirer. L'eau glisse ainsi sur le toit sans s'infiltrer, emportant les saletés (effet autonettoyant), ce qui ralentit drastiquement la réapparition des mousses.</p>
+                   <p>C'est la protection idéale pour garantir la longévité de votre toiture sur 10 ans. Nos équipes appliquent des hydrofuges incolores ou colorés haut de gamme à Béziers et dans tout le département de l'Hérault (34).</p>
+                   <p>Contactez SAR Nettoyage pour un diagnostic gratuit de votre toit et un devis personnalisé sous 15 minutes.</p>`
         }
     };
 
