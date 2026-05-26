@@ -30,6 +30,7 @@ function buildPage(c) {
     <meta name="keywords" content="nettoyage toiture ${c.name}, demoussage toiture ${c.name}, hydrofuge toiture ${c.name}, nettoyage facade ${c.name}, entreprise nettoyage toiture 34">
     <meta name="author" content="SAR Nettoyage">
     <title>Nettoyage de Toiture &amp; Démoussage à ${c.name} | SAR Nettoyage</title>
+    <link rel="canonical" href="https://support.apexwallcare.com/zones/${c.slug}.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Exclude legal pages from indexing
+Disallow: /confidentialite.html
+Disallow: /conditions.html
+
+# Sitemap location
+Sitemap: https://support.apexwallcare.com/sitemap.xml

@@ -260,6 +260,7 @@ function buildPage(s) {
     <meta name="keywords" content="${s.metaKeywords}">
     <meta name="author" content="SAR Nettoyage">
     <title>${s.title} | SAR Nettoyage</title>
+    <link rel="canonical" href="https://support.apexwallcare.com/services/${s.slug}.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
