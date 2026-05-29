@@ -10,7 +10,7 @@ const services = [
     badge: 'Service Premium',
     lead: 'Nettoyage en profondeur des salons, chambres et couloirs pour retrouver l\'éclat d\'origine de la peinture — sans décoloration ni trace.',
     cardNote: 'Appartements, maisons & résidences en Occitanie',
-    img: 'img3.jpg',
+    img: 'intimg.jpg',
     alt: 'Nettoyage de murs intérieurs professionnel',
     metaDesc: 'Nettoyage professionnel de murs intérieurs à Béziers et Occitanie. Élimination des taches, traces de doigts, graisse et jaunissement sans abîmer la peinture.',
     metaKeywords: 'nettoyage mur intérieur, enlever tache mur, nettoyage peinture, nettoyage maison beziers',
